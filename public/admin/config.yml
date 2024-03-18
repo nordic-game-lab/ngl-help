@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: 'public/images/uploads' # Folder where user uploaded files should go
+public_folder: 'public/images/uploads'
+logo_url: 'https://static.nordicgamelab.org/nordic_game_lab_logos%2Flogo_white_background.svg'
+
+collections: # A list of collections the CMS should be able to edit
+  - name: 'learnhub-help' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'LeanHub Help doc' # Used in the UI, ie.: "New Doc"
+    folder: 'src/content/docs/help/learnhub' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
