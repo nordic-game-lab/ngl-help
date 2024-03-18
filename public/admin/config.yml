@@ -9,7 +9,7 @@ logo_url: 'https://static.nordicgamelab.org/nordic_game_lab_logos%2Flogo_white_b
 collections: # A list of collections the CMS should be able to edit
   - name: 'learnhub-help' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'LeanHub Help doc' # Used in the UI, ie.: "New Doc"
-    folder: 'src/content/docs/help/learnhub' # The path to the folder where the documents are stored
+    folder: 'src/content/docs/learnhub' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }

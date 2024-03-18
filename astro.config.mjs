@@ -12,7 +12,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'LearnHub',
-					autogenerate: { directory: 'help/learnhub' },
+					autogenerate: { directory: 'learnhub' },
 				},
 			],
 		}),
