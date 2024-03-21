@@ -42,21 +42,5 @@ description: Learn how to get started with LearnHub by Nordic Game Lab LLC
 - The employee will receive notifications about the assigned course.
 
 
-
-
-
-
-[Video](https://video-player-keky.onrender.com/widget/player/8d029b84-e55c-4b0d-b54e-8e3d33509f59Video)
-
-
-
-
-
-
-
-
-
-
-
-
+[Video](https://video-player-keky.onrender.com/widget/player/8d029b84-e55c-4b0d-b54e-8e3d33509f59)
 
